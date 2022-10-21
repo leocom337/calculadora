@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Aula de javascript</title>
+        <link rel="stylesheet" href="calc.css"/>
+        <script type="text/javascript" src="calc.js"></script>        
+    </head>
+    <body>
+      
+
+        <h1>Calculadora</h1>
+        
+
+        <input type="text" value="0" id="visor"/>        
+
+        <table>
+            <tr>
+                <td><button value="7" onclick="btnN(this.value);">7</button></td>
+                <td><button value="8" onclick="btnN(this.value)">8</button></td>
+                <td><button value="9" onclick="btnN(this.value)">9</button></td>
+                <td><button value="/" onclick="btnF(this.value)">/</button></td>
+                <td><button value="c" onclick="btnc(this.value)">C</button></td>
+            </tr>
+            <tr>
+                <td><button value="4" onclick="btnN(this.value);">4</button></td>
+                <td><button value="5" onclick="btnN(this.value);">5</button></td>
+                <td><button value="6" onclick="btnN(this.value);">6</button></td>
+                <td><button value="*" onclick="btnF(this.value)">*</button></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td><button value="1" onclick="btnN(this.value);">1</button></td>
+                <td><button value="2" onclick="btnN(this.value);">2</button></td>
+                <td><button value="3" onclick="btnN(this.value);">3</button></td>
+                <td><button value="-" onclick="btnF(this.value)">-</button></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><button value="0" onclick="btnN(this.value);">0</button></td>
+                <td> </td>
+                <td><button value="+" onclick="btnF(this.value)">+</button></td>
+                <td><button class="gray" value="=" onclick="btnig()">=</button></td>
+            </tr>            
+        </table>              
+
+    </body>
+</html>

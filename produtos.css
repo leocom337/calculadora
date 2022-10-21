@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.ex{
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px 5px;    
+    height: 100px;
+    background-color: black;
+}
+
+img {
+    width: 200px ;
+}
+
+
+.ex2{
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px 5px;    
+    height: 400px;
+    width: 400px;
+    background-color: red;
+}
