@@ -6,6 +6,34 @@
     text-align: right;
     margin: 20px 0;
     font: 14pt bold;
+    left: 10px;
+    position: relative
+}
+table{
+    position: absolute;
+    left: 1px;
+}
+
+
+h1{
+    left: 47%;
+    position: relative;
+
+}
+
+button{
+    font-style:oblique;
+}
+
+.centro{
+    width: 270px;
+    height: 210px;
+    position: absolute;
+    align-items: center;
+    border: 1px solid black;
+    left: 45%;
+    top: 10%;
+    background-color: rgb(105, 101, 101);
 }
 
 .gray{
@@ -18,7 +46,7 @@ tr td{
 }
 
 tr td button{
-    width: 40px;
+    width: 45px;
     height: 30px;
     cursor: pointer;
 }

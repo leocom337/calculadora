@@ -9,7 +9,7 @@ function btnN(valor){
     if(gray){
         visor.value = 0
     }
-    if(operacao == null && visor.value != 0){
+    if(visor.value != 0){
         visor.value += valor;
     }
     if(visor.value == 0){
@@ -24,12 +24,12 @@ function btnF(valor){
     if(!primeira){
         operacoes(visor);
         primeiro=resultado;
+        visor.value = resultado;
     }else
         primeiro = visor.value
     operacao = valor;
     primeira = false;
-    visor.value = 0;
-    gray = false;
+    gray = true;
 }
 
 function btnc(valor){
@@ -63,7 +63,6 @@ function btnig(){
     operacoes(visor);
     console.log(resultado)
     visor.value = resultado;
-    resultado = 0;
     operacao = null;
     primeira = true;
     primeiro = 0;
